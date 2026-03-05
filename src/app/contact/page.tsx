@@ -91,7 +91,7 @@ export default function ContactPage() {
                 "SB Solutions specializes in complex credit situations. Whether you're dealing with collections, late payments, foreclosure, bankruptcy, or identity theft, our experienced team has strategies to address multiple issues comprehensively. We'll develop a customized plan addressing all aspects of your credit profile.",
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/smart-businesswoman-explaining-chart_1139-298.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/smart-businesswoman-explaining-chart_1139-298.jpg?_wi=4"
           imageAlt="FAQ and support resources"
           mediaAnimation="slide-up"
           useInvertedBackground={true}
@@ -102,7 +102,7 @@ export default function ContactPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="http://img.b2bpic.net/free-photo/financial-charts-kpi-metrics-displays-office_482257-126638.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/financial-charts-kpi-metrics-displays-office_482257-126638.jpg?_wi=4"
           imageAlt="Professional office environment"
           logoText="SB Solutions"
           copyrightText="© 2025 SB Solutions. All rights reserved."
