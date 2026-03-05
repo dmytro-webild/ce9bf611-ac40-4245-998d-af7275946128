@@ -52,7 +52,7 @@ export default function ServicesPage() {
               id: "3",              title: "Funding Consulting - Detailed",              content:
                 "Once your credit foundation is solid, our funding consulting services help you access capital. Whether you're seeking personal loans, credit lines, or business funding, we provide personalized consulting based on your credit profile and financial goals. We guide you through application processes, help you select the best funding products, negotiate favorable terms, and prepare comprehensive financial documentation. Our connections with multiple lending partners mean you'll have access to diverse funding options. We've helped hundreds of clients secure funding they were previously denied, with approved amounts ranging from $10,000 to $500,000+."},
           ]}
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&_wi=2"
           imageAlt="Professional financial consulting services"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -107,7 +107,7 @@ export default function ServicesPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop&_wi=2"
           imageAlt="Professional office environment"
           logoText="SB Solutions"
           copyrightText="© 2025 SB Solutions. All rights reserved."
