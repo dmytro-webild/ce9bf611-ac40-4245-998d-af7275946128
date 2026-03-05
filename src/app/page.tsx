@@ -131,7 +131,7 @@ export default function HomePage() {
                 "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",              avatarAlt: "Michael Johnson"
             },
             {
-              id: "2",              name: "Sarah Williams, Professional",              date: "Date: 22 October 2024",              title: "Life-Changing Financial Guidance",              quote:
+              id: "2",              name: "David Martinez, Small Business Owner",              date: "Date: 22 October 2024",              title: "Life-Changing Financial Guidance",              quote:
                 "I was overwhelmed by negative items on my credit report. SB Solutions methodically disputed inaccurate entries and guided me through the entire process. Now I have excellent credit and qualified for a mortgage at the best rates available.",              tag: "Credit Building",              avatarSrc:
                 "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",              avatarAlt: "Sarah Williams"
             },
