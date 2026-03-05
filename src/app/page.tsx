@@ -45,11 +45,14 @@ export default function HomePage() {
           background={{ variant: "downward-rays-static-grid" }}
           avatars={[
             {
-              src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",              alt: "Client success story"},
+              src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",              alt: "Michael Johnson"
+            },
             {
-              src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",              alt: "Financial transformation"},
+              src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",              alt: "Sarah Williams"
+            },
             {
-              src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",              alt: "Credit improvement success"},
+              src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",              alt: "David Martinez"
+            },
           ]}
           avatarText="Trusted by 500+ satisfied clients"
           buttons={[
@@ -68,13 +71,16 @@ export default function HomePage() {
           accordionItems={[
             {
               id: "1",              title: "Credit Repair Services",              content:
-                "We help clients review their credit reports and dispute inaccurate, outdated, or unverifiable negative items with the credit bureaus. Our comprehensive credit repair process includes detailed credit report analysis, strategic dispute assistance, thorough negative item review, and personalized credit profile improvement strategies to maximize your credit score potential."},
+                "We help clients review their credit reports and dispute inaccurate, outdated, or unverifiable negative items with the credit bureaus. Our comprehensive credit repair process includes detailed credit report analysis, strategic dispute assistance, thorough negative item review, and personalized credit profile improvement strategies to maximize your credit score potential."
+            },
             {
               id: "2",              title: "Credit Building Programs",              content:
-                "SB Solutions strengthens your credit profile by teaching responsible credit use and helping you build positive payment history. We provide expert credit utilization guidance, strategic account recommendations, credit mix improvement strategies, and comprehensive responsible credit management education to establish a strong financial foundation."},
+                "SB Solutions strengthens your credit profile by teaching responsible credit use and helping you build positive payment history. We provide expert credit utilization guidance, strategic account recommendations, credit mix improvement strategies, and comprehensive responsible credit management education to establish a strong financial foundation."
+            },
             {
               id: "3",              title: "Funding Consulting",              content:
-                "Once your credit profile improves, we guide you through potential funding opportunities with personalized funding strategy development, business funding guidance, credit card and line of credit consulting, and complete application preparation to position you for success."},
+                "Once your credit profile improves, we guide you through potential funding opportunities with personalized funding strategy development, business funding guidance, credit card and line of credit consulting, and complete application preparation to position you for success."
+            },
           ]}
           imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&_wi=1"
           imageAlt="Professional financial consultation"
@@ -101,7 +107,8 @@ export default function HomePage() {
               id: "3",              title: "Credit Optimization",              subtitle: "Guided dispute and building process",              category: "Step 3",              value: "Active Support",              buttons: [{ text: "Learn Details", href: "/services" }],
             },
             {
-              id: "4",              title: "Funding Preparation",              subtitle: "Positioning for new opportunities",              category: "Step 4",              value: "Ready to Apply"},
+              id: "4",              title: "Funding Preparation",              subtitle: "Positioning for new opportunities",              category: "Step 4",              value: "Ready to Apply"
+            },
           ]}
           textboxLayout="default"
           useInvertedBackground={true}
@@ -121,27 +128,33 @@ export default function HomePage() {
             {
               id: "1",              name: "Michael Johnson, Entrepreneur",              date: "Date: 15 November 2024",              title: "From Denied to Approved",              quote:
                 "SB Solutions transformed my financial situation. My credit score improved by 127 points in just 8 months, and I was able to secure $50,000 in business funding. The team's expertise and transparency made all the difference in my journey.",              tag: "Credit Repair",              avatarSrc:
-                "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",              avatarAlt: "Michael Johnson"},
+                "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",              avatarAlt: "Michael Johnson"
+            },
             {
               id: "2",              name: "Sarah Williams, Professional",              date: "Date: 22 October 2024",              title: "Life-Changing Financial Guidance",              quote:
                 "I was overwhelmed by negative items on my credit report. SB Solutions methodically disputed inaccurate entries and guided me through the entire process. Now I have excellent credit and qualified for a mortgage at the best rates available.",              tag: "Credit Building",              avatarSrc:
-                "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",              avatarAlt: "Sarah Williams"},
+                "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",              avatarAlt: "Sarah Williams"
+            },
             {
               id: "3",              name: "David Martinez, Small Business Owner",              date: "Date: 8 September 2024",              title: "Expert Funding Consultation",              quote:
                 "After working with SB Solutions on credit repair, their funding consulting services helped me navigate multiple funding options. I secured favorable terms for my business expansion and couldn't be happier with the results.",              tag: "Funding",              avatarSrc:
-                "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",              avatarAlt: "David Martinez"},
+                "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",              avatarAlt: "David Martinez"
+            },
             {
               id: "4",              name: "Jennifer Lee, Finance Professional",              date: "Date: 30 August 2024",              title: "Transparent and Professional",              quote:
                 "What impressed me most about SB Solutions was their transparency and personalized approach. They explained every step, managed expectations realistically, and delivered exceptional results. Highly recommended for anyone serious about improving their financial future.",              tag: "Credit Repair",              avatarSrc:
-                "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",              avatarAlt: "Jennifer Lee"},
+                "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=150&h=150&fit=crop",              avatarAlt: "Jennifer Lee"
+            },
             {
               id: "5",              name: "Robert Taylor, Executive",              date: "Date: 12 July 2024",              title: "Professional Excellence",              quote:
                 "The SB Solutions team demonstrated deep expertise in credit repair and funding strategy. They answered all my questions thoroughly and worked efficiently to improve my credit profile. I'm now in a position I never thought possible.",              tag: "Funding",              avatarSrc:
-                "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",              avatarAlt: "Robert Taylor"},
+                "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",              avatarAlt: "Robert Taylor"
+            },
             {
               id: "6",              name: "Amanda White, Consultant",              date: "Date: 25 June 2024",              title: "Recommended Without Hesitation",              quote:
                 "SB Solutions exceeded my expectations in every way. From initial consultation through final results, their professionalism and dedication were outstanding. I've already recommended them to several colleagues with excellent feedback.",              tag: "Credit Building",              avatarSrc:
-                "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",              avatarAlt: "Amanda White"},
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",              avatarAlt: "Amanda White"
+            },
           ]}
         />
       </div>
