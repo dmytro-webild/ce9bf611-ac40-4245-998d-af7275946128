@@ -51,7 +51,7 @@ export default function AboutPage() {
               id: "3",              title: "Our Team",              content:
                 "Our team comprises credit specialists, financial advisors, and funding consultants with combined experience exceeding 50+ years in the financial services industry. Each team member is committed to continuing education, staying current with regulatory changes, and developing innovative strategies to serve our clients better."},
           ]}
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&_wi=3"
           imageAlt="SB Solutions professional team"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -98,7 +98,7 @@ export default function AboutPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop&_wi=3"
           imageAlt="Professional office environment"
           logoText="SB Solutions"
           copyrightText="© 2025 SB Solutions. All rights reserved."

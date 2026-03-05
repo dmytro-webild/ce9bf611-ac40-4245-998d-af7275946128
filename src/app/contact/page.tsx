@@ -73,7 +73,7 @@ export default function ContactPage() {
               id: "6",              title: "What if I have multiple credit issues?",              content:
                 "SB Solutions specializes in complex credit situations. Whether you're dealing with collections, late payments, foreclosure, bankruptcy, or identity theft, our experienced team has strategies to address multiple issues comprehensively. We'll develop a customized plan addressing all aspects of your credit profile."},
           ]}
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&_wi=4"
           imageAlt="FAQ and support resources"
           mediaAnimation="slide-up"
           useInvertedBackground={true}
@@ -84,7 +84,7 @@ export default function ContactPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop&_wi=4"
           imageAlt="Professional office environment"
           logoText="SB Solutions"
           copyrightText="© 2025 SB Solutions. All rights reserved."
