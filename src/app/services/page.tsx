@@ -43,25 +43,16 @@ export default function ServicesPage() {
           description="Each service is designed with your unique financial situation in mind. We combine industry expertise with personalized strategies to deliver measurable results."
           accordionItems={[
             {
-              id: "1",
-              title: "Credit Repair Services - Detailed",
-              content:
-                "Our credit repair methodology is comprehensive and transparent. We begin with a thorough analysis of your credit reports from all three major bureaus (Equifax, Experian, TransUnion) to identify inaccuracies, outdated information, and unverifiable negative items. Our team then develops a strategic dispute plan, submitting formal disputes to each bureau on your behalf. We handle all correspondence, track responses, and provide regular updates throughout the entire process. Our success rate demonstrates the effectiveness of our targeted dispute strategy combined with consumer protection law expertise. Average clients see measurable improvements within 3-6 months.",
-            },
+              id: "1",              title: "Credit Repair Services - Detailed",              content:
+                "Our credit repair methodology is comprehensive and transparent. We begin with a thorough analysis of your credit reports from all three major bureaus (Equifax, Experian, TransUnion) to identify inaccuracies, outdated information, and unverifiable negative items. Our team then develops a strategic dispute plan, submitting formal disputes to each bureau on your behalf. We handle all correspondence, track responses, and provide regular updates throughout the entire process. Our success rate demonstrates the effectiveness of our targeted dispute strategy combined with consumer protection law expertise. Average clients see measurable improvements within 3-6 months."},
             {
-              id: "2",
-              title: "Credit Building Programs - Detailed",
-              content:
-                "Building strong credit requires more than just repairing damage—it requires strategy. Our credit building programs teach you how to responsibly use credit to your advantage. We provide guidance on optimal credit card utilization ratios, timing of applications, account mix strategies, and payment scheduling to maximize your credit score. You'll learn the nuances of credit scoring models and how to position yourself as a lower-risk borrower. Our clients typically see score increases of 50-100+ points within 12 months by following our evidence-based recommendations and maintaining positive financial habits.",
-            },
+              id: "2",              title: "Credit Building Programs - Detailed",              content:
+                "Building strong credit requires more than just repairing damage—it requires strategy. Our credit building programs teach you how to responsibly use credit to your advantage. We provide guidance on optimal credit card utilization ratios, timing of applications, account mix strategies, and payment scheduling to maximize your credit score. You'll learn the nuances of credit scoring models and how to position yourself as a lower-risk borrower. Our clients typically see score increases of 50-100+ points within 12 months by following our evidence-based recommendations and maintaining positive financial habits."},
             {
-              id: "3",
-              title: "Funding Consulting - Detailed",
-              content:
-                "Once your credit foundation is solid, our funding consulting services help you access capital. Whether you're seeking personal loans, credit lines, or business funding, we provide personalized consulting based on your credit profile and financial goals. We guide you through application processes, help you select the best funding products, negotiate favorable terms, and prepare comprehensive financial documentation. Our connections with multiple lending partners mean you'll have access to diverse funding options. We've helped hundreds of clients secure funding they were previously denied, with approved amounts ranging from $10,000 to $500,000+.",
-            },
+              id: "3",              title: "Funding Consulting - Detailed",              content:
+                "Once your credit foundation is solid, our funding consulting services help you access capital. Whether you're seeking personal loans, credit lines, or business funding, we provide personalized consulting based on your credit profile and financial goals. We guide you through application processes, help you select the best funding products, negotiate favorable terms, and prepare comprehensive financial documentation. Our connections with multiple lending partners mean you'll have access to diverse funding options. We've helped hundreds of clients secure funding they were previously denied, with approved amounts ranging from $10,000 to $500,000+."},
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/smart-businesswoman-explaining-chart_1139-298.jpg?_wi=2"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
           imageAlt="Professional financial consulting services"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -79,32 +70,17 @@ export default function ServicesPage() {
           tag="Pricing"
           metrics={[
             {
-              id: "1",
-              title: "Credit Repair Starter",
-              subtitle: "Perfect for first-time credit repair",
-              category: "Entry Level",
-              value: "$299/month",
-              buttons: [
+              id: "1",              title: "Credit Repair Starter",              subtitle: "Perfect for first-time credit repair",              category: "Entry Level",              value: "$299/month",              buttons: [
                 { text: "Get Started", href: "/contact" },
               ],
             },
             {
-              id: "2",
-              title: "Credit Building Plus",
-              subtitle: "Comprehensive credit improvement program",
-              category: "Popular",
-              value: "$499/month",
-              buttons: [
+              id: "2",              title: "Credit Building Plus",              subtitle: "Comprehensive credit improvement program",              category: "Popular",              value: "$499/month",              buttons: [
                 { text: "Choose Plan", href: "/contact" },
               ],
             },
             {
-              id: "3",
-              title: "Funding Success Program",
-              subtitle: "Complete funding preparation and consulting",
-              category: "Premium",
-              value: "$799/month",
-              buttons: [
+              id: "3",              title: "Funding Success Program",              subtitle: "Complete funding preparation and consulting",              category: "Premium",              value: "$799/month",              buttons: [
                 { text: "Premium Access", href: "/contact" },
               ],
             },
@@ -131,30 +107,27 @@ export default function ServicesPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="http://img.b2bpic.net/free-photo/financial-charts-kpi-metrics-displays-office_482257-126638.jpg?_wi=2"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
           imageAlt="Professional office environment"
           logoText="SB Solutions"
           copyrightText="© 2025 SB Solutions. All rights reserved."
           columns={[
             {
-              title: "Services",
-              items: [
+              title: "Services",              items: [
                 { label: "Credit Repair", href: "/services" },
                 { label: "Credit Building", href: "/services" },
                 { label: "Funding Consulting", href: "/services" },
               ],
             },
             {
-              title: "Company",
-              items: [
+              title: "Company",              items: [
                 { label: "About Us", href: "/about" },
                 { label: "Contact", href: "/contact" },
                 { label: "Testimonials", href: "/" },
               ],
             },
             {
-              title: "Legal",
-              items: [
+              title: "Legal",              items: [
                 { label: "Privacy Policy", href: "#" },
                 { label: "Terms of Service", href: "#" },
                 { label: "Disclaimer", href: "#" },
