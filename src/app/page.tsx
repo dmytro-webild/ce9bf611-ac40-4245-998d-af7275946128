@@ -76,7 +76,7 @@ export default function HomePage() {
               id: "3",              title: "Funding Consulting",              content:
                 "Once your credit profile improves, we guide you through potential funding opportunities with personalized funding strategy development, business funding guidance, credit card and line of credit consulting, and complete application preparation to position you for success."},
           ]}
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop&_wi=1"
           imageAlt="Professional financial consultation"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -161,7 +161,7 @@ export default function HomePage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop&_wi=1"
           imageAlt="Professional office environment"
           logoText="SB Solutions"
           copyrightText="© 2025 SB Solutions. All rights reserved."
